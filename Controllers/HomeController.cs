@@ -32,5 +32,11 @@ namespace TestGit.Controllers
 
             return View();
         }
+        public ActionResult TestGitHub2()
+        {
+            ViewBag.Message = "Welcome.";
+
+            return View();
+        }
     }
 }
